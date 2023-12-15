@@ -1,0 +1,35 @@
+/* CSS Document */
+
+.header{
+	background-color:#CCCCCC;
+	overflow: hidden;
+	padding: 20px 10px;
+	text-decoration:none;
+	text-transform:capitalize;
+}
+.header a{
+	text-decoration:none;
+	color: black;
+	font-size:26px;
+	
+	font-family:Caladea;
+}
+* {box-sizing: border-box;}
+.header a:hover {
+  color:#330099;
+}
+.header a:active{
+	color:#FFFF33
+}
+.header-right{
+	float:right;
+}
+.btn {
+  background-color:#FFFFFF;
+  border:ridge;
+  border-radius:50%;
+  color:#0000FF;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}

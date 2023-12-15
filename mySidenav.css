@@ -1,0 +1,67 @@
+/* CSS Document */
+
+#mySidenav a {
+  position: absolute;
+  transition: 0.3s;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#Home {
+  top: 180px;
+  background-color: #4CAF50;
+  left: -70px;
+  width: 115px;
+  
+}
+
+#Our_Mission {
+  top: 240px;
+  left: -120px;
+  width: 165px;
+  background-color:#663399;
+}
+
+#Our_Services {
+  top: 300px;
+    left: -120px;
+  width: 165px;
+  background-color: #f44336;
+}
+
+#good_work_done {
+  top: 360px;
+    left: -150px;
+  width: 195px;
+  background-color:#FF6600;
+}
+
+#Contact_US {
+  top: 420px;
+    left: -110px;
+  width: 155px;
+  background-color: #0000FF
+}
+
+#Relative_Links {
+  top: 480px;
+    left: -135px;
+  width: 180px;
+  background-color:#CC6600
+}
+#FAQ {
+  top: 540px;
+  left:-70px;
+  width:115px;
+  background-color: #000000
+}
+i{
+padding-left:10px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="firvalidate.js">
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" type="text/css" href="header.css" /> 
+<link rel="stylesheet" type="text/css" href="mySidenav.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" type="text/css" href="login.css" />
+<title>Provide Intel</title>
+</head>
+<body  >
+<div class="header" >
+	<a href="#default"><img src="logo.png" width="100" height="110" align="middle" />Illicit goods complaint registration portal.</a>
+</div>
+	<div id="mySidenav" class="sidenav">
+  		<a href="main.html" id="Home">Home<i class="fa fa-home" aria-hidden="true"></i></a>
+  		<a href="our_mission.html" id="Our_Mission">Our Mission<i class="fa fa fa-bullseye" aria-hidden="true"></i></a>
+  		<a href="os.html" id="Our_Services">Our Services<i class="fa fa-superpowers" aria-hidden="true"></i></a>
+  		<a href="gwd.html" id="good_work_done">Good work done<i class="fa fa-briefcase" aria-hidden="true"></i></a>
+		<a href="contact_us.html" id="Contact_US">Contact US<i class="fa fa-phone-square" aria-hidden="true"></i></a>
+		<a href="rl.html" id="Relative_Links">Relative Links<i class="fa fa-external-link" aria-hidden="true"></i></a>
+		<a href="faq.html" id="FAQ">FAQ?<i class="fa fa-question-circle" aria-hidden="true"></i></a>
+	</div><h2 style="font-family:Caladea;color:#9933ff;text-align:center;">Complaint Registration</h2>
+	<div class="login"><br>
+	  	<div class="login-right" >
+		<form onsubmit="return fv()">
+		<table border="0" cellspacing="12px" cellpadding="12px" align="right">
+		<tr>
+			<td><h3>Complaint on:</h3><i class="fa fa-crosshairs icon"><select id="type">
+		 		<option selected>--PLEASE CHOOSE--</option>
+				<option>Grey Market</option>
+				<option>Counterfeit Goods</option></select></i></td>	
+			<td><h3>Name of organization:</h3><i class="fa fa-sitemap icon"><input type="text" placeholder="Organization name:-" id="organisation"></i></input></td>
+		</tr>
+		<tr>		
+			<td><h3>Address:</h3><i class="fa fa-map-marker icon"><input type="text" placeholder="Organization address and location:-" id="place"/></h3></i></td>
+			<td><h3>Date Of Complaint:</h3><i class="fa fa-calendar icon"><input type="date" id="dates"/></h3></i></td>
+		</tr>
+		<tr>
+			<td><h3>Description About The Complaint:</h3><i class="fa fa-file-text icon"><textarea rows="5" cols="50" placeholder="Discription of how you came across this organisation:-" id="details"></textarea></i></td>
+			<td><h3>Kindly Attach Evidence(Photos,Videos,file):</h3><i class="fa fa-file icon"><input  type="file" id="evidence"/></i></td></tr></table>
+		<br><br><center><button  type="submit">Submit</button></center>
+		</form>	
+	  </div>
+	</div>	
+</body>
+</html>
