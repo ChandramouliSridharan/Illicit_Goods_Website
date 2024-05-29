@@ -5,7 +5,7 @@
 
 3. This is a basic website which was designed and developed using HTML, CSS,Bootstrap, JS and Php.
 
-4. This repository contains all the files that I developed and also contain all the images that I used for background and icons.
+4. This repository contains all the files that we developed and also contain all the images that are being used as background images and icons.
 
 5. **main.html** is the starting page for this website. 
 
